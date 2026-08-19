@@ -1,0 +1,70 @@
+---
+// Component
+import BaseLayout from "@layouts/BaseLayout.astro"
+---
+
+<BaseLayout>
+  <div class="page" data-page>
+    <header class="frame">
+      <h1 class="frame-title">Pointer Square Lens Distortion with RGB Shift</h1>
+
+      <nav class="frame-links" aria-label="Project links">
+        <a href="">Article</a>
+        <a href="https://tympanus.net/codrops/hub/">All demos</a>
+        <a
+          href="https://github.com/tomoyukinakata/pointer-square-lens-distortion"
+          >GitHub</a
+        >
+      </nav>
+
+      <nav class="frame-tags" aria-label="Topics">
+        <a href="https://tympanus.net/codrops/hub/tag/three-js/">#three.js</a>
+        <a href="https://tympanus.net/codrops/hub/tag/webgl/">#webgl</a>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="img">
+        <img
+          src={`${import.meta.env.BASE_URL}assets/img/texture1.webp`}
+          alt=""
+          data-mesh
+          data-texture1-path={`${import.meta.env.BASE_URL}assets/img/texture1.webp`}
+          data-texture2-path={`${import.meta.env.BASE_URL}assets/img/texture2.webp`}
+        />
+      </div>
+      <canvas class="canvas" data-canvas></canvas>
+    </div>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  .page {
+    min-block-size: 100svb;
+  }
+
+  .content {
+    position: fixed;
+    inset: 0;
+    display: block grid;
+  }
+
+  .img {
+    grid-area: 1 / 1;
+    block-size: 100lvb;
+    inline-size: 100lvi;
+
+    img {
+      block-size: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .canvas {
+    grid-area: 1 / 1;
+    z-index: 1;
+    block-size: 100lvb;
+    inline-size: 100lvi;
+    pointer-events: none;
+  }
+</style>

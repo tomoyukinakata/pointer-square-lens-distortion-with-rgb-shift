@@ -1,0 +1,27 @@
+{
+  "plugins": ["prettier-plugin-astro"],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro",
+        "semi": false,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "options": {
+        "semi": false,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": ["**/*.md"],
+      "options": {
+        "semi": false,
+        "trailingComma": "none"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+---
+// Style
+import "@styles/index.scss"
+---
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pointer Square Lens Distortion with RGB Shift | Codrops</title>
+    <meta
+      name="description"
+      content="An interactive WebGL lens distortion with a radial RGB shift that follows the pointer inside a square area."
+    />
+    <meta
+      name="keywords"
+      content="webgl, three.js, glsl, shader, lens distortion, rgb shift"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href={`${import.meta.env.BASE_URL}favicon.svg`}
+    />
+    <link rel="shortcut icon" href={`${import.meta.env.BASE_URL}favicon.ico`} />
+    <script is:inline>
+      document.documentElement.classList.replace("no-js", "js")
+    </script>
+  </head>
+  <body class="loading">
+    <noscript>
+      <div class="no-script-message">
+        <h1>JavaScript required</h1>
+        <p>This demo requires JavaScript and WebGL support.</p>
+        <p>Please enable JavaScript and use a modern browser.</p>
+      </div>
+    </noscript>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
+
+<script>
+  import "@scripts/index.ts"
+</script>
