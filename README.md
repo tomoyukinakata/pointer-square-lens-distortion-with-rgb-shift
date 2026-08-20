@@ -2,7 +2,7 @@
 
 An interactive WebGL effect that follows the pointer with a square lens, switching between two textures while applying lens distortion, a radial RGB shift, waves, and animated grain.
 
-![Pointer Square Lens Distortion with RGB Shift preview](public/assets/img/screenshot.jpg)
+![Pointer Square Lens Distortion with RGB Shift preview](public/assets/img/screenshot.webp)
 
 [Article on Codrops]()
 
