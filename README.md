@@ -6,7 +6,7 @@ An interactive WebGL effect that follows the pointer with a square lens, switchi
 
 [Article on Codrops](https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/)
 
-[Demo](https://tympanus.net/Tutorials/PointerSquareLensDistortion/)
+[Demo](https://tympanus.net/Tutorials/MouseFollowingSquareLensEffect/)
 
 ## Features
 
