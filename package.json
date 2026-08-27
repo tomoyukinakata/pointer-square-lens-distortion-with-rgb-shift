@@ -1,5 +1,5 @@
 {
-  "name": "pointer-square-lens-distortion-rgb-shift",
+  "name": "mouse-following-square-lens-effect",
   "type": "module",
   "version": "0.0.1",
   "description": "An interactive pointer-following square lens distortion with a radial RGB shift, built with Three.js and GLSL.",

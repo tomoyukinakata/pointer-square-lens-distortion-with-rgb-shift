@@ -1,8 +1,8 @@
-# Pointer Square Lens Distortion with RGB Shift
+# Mouse Following Square Lens Effect
 
 An interactive WebGL effect that follows the pointer with a square lens, switching between two textures while applying lens distortion, a radial RGB shift, waves, and animated grain.
 
-![Pointer Square Lens Distortion with RGB Shift preview](public/assets/img/screenshot.webp)
+![Mouse Following Square Lens Effect preview](public/assets/img/screenshot.webp)
 
 [Article on Codrops](https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/)
 
